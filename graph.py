@@ -39,6 +39,7 @@ if debug :
 questions = ["Q"+str(i+1) for i in xrange(q)]
 if debug :
 	print("question label = %s" %questions)
+	
 """
 a, b, c, d = [2, 2, 2, 0]
 
