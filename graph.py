@@ -27,7 +27,7 @@ def make_ylim() :
 	global data
 	dn = data.min()
 	up = data.max()
-	value = abs(up - dn) / 10
+	value = abs(up - dn) / 10.0
 	dn -= value
 	up += value
 	return dn, up
